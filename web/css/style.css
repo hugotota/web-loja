@@ -297,3 +297,29 @@ ul[id |= "sub"] li a:hover, ul[id |= "sub"] li a:active {
 	background-color: #62b79a;
 }
 
+.ui-tabs {
+	width: 264px;
+}
+
+.ui-widget-header {
+	background: #fff;
+	border: solid 1px #DDDDDD;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+	color: #0C0241;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+	border: solid 1px #0C0241;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, 
+.ui-state-focus, .ui-widget-content .ui-state-focus {
+	border: solid 1px #0C0241;
+	background: #fff;
+}
+
+#tabs {
+	float: right;
+}
