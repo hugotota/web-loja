@@ -198,7 +198,7 @@ ul#menu_top li a:hover, ul#menu_top li a:active {
 #menu_secoes li a.inicial:hover, #menu_secoes li a.inicial:active {}
 
 #menu_secoes li a.selecionado:link, #menu_secoes li a.selecionado:visited {
-	background: url('../im						<li><a href="#">NOTÍCIAS</a> | </li>ages/menu_hover.jpg') no-repeat bottom;
+	background: url('../images/menu_hover.jpg') no-repeat bottom;
 	color: #fff;
 	display: inline-block;
 	font-weight: bold;
@@ -225,7 +225,7 @@ ul[id |= "sub"] li {
 ul[id |= "sub"] li a:link, ul[id |= "sub"] li a:visited {
 	color: #696969;
 	display: inline-block;
-	text-decoration: none						<li><a href="#">NOTÍCIAS</a> | </li>;
+	text-decoration: none;
 	font: bold 12px Arial, Helvetica, sans-serif;
 	padding: 10px 20px;
 }
@@ -322,4 +322,104 @@ ul[id |= "sub"] li a:hover, ul[id |= "sub"] li a:active {
 
 #tabs {
 	float: right;
+}
+
+#composicao {
+	font: 9pt Arial, Helvetica, sans-serif;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#composicao caption {
+	font-weight: bold;
+}
+
+#composicao tfoot tr {
+	border: solid 1px #333333;
+}
+
+#composicao tfoot td {
+	color: #ffffff;
+	padding: 5px;
+	background: #999999;
+}
+
+#composicao tr.alt td {
+	background: #CCCCCC;
+}
+
+#composicao tbody td, #composicao th {
+	padding: 5px;
+	border: solid 1px #333333;
+}
+
+#composicao th {
+	color: #DCDCDC;
+	background: #666666;
+}
+
+.valor {
+	text-align: right;
+}
+
+#slideshow {
+	margin-bottom: 20px;
+	height: 157px;
+	position: relative;
+	background: url('../images/carrossel.jpg') repeat-x;
+	width: 100%;
+	-moz-border-radius: 5px;
+}
+
+#slideshow #slidesContainer {
+	margin: 0 auto;
+	width: 725px;
+	height: 100px;
+	overflow: auto;
+	position: relative;
+	padding-top: 30px;
+}
+
+#slideshow #slidesContainer .slide {
+	margin: 0 auto;
+	width: 725px;
+	height: 100px;
+}
+
+.control {
+	display: block;
+	width: 39px;
+	height: 157px;
+	text-indent: -10000px;
+	position: absolute;
+	cursor: pointer;
+}
+
+#leftControl {
+	top: 0;
+	left: 0;
+	background: transparent url("../images/left.jpg") no-repeat 0 0;
+}
+
+#rightControl {
+	top: 0;
+	right: 0;
+	background: transparent url("../images/right.jpg") no-repeat 0 0;
+}
+
+.slide h2, .slide p {
+	margin: 15px;
+}
+
+.slide h2 {
+	font: italic 24px Georgia, "Times New Roman", Times, serif;
+	color: #212121;
+	letter-spacing: -1px;
+}
+
+.slide img {
+	float: right;
+	width: 90px;
+	height: 100px;
+	margin: 0 15px;
 }

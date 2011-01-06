@@ -10,6 +10,7 @@
 		<script type="text/javascript" src="script/imagem.js"></script>
 		<script type="text/javascript" src="script/tabs.js"></script>
 		<script type="text/javascript" src="script/loja_tabs.js"></script>
+		<script type="text/javascript" src="script/slideshow.js"></script>
 	</head>
 	<body>
 		<div id="main">
@@ -92,12 +93,82 @@
 							<li><a href="#tabs-2">Envio</a></li>
 							<li><a href="#tabs-3">Comentários</a></li>
 						</ul>
-						<div id="tabs-1">primeira aba.</div>
+						<div id="tabs-1">
+							<table cellspacing="0" id="composicao" cellpadding="0">
+								<caption>Dados do produto</caption>
+								<thead>
+									<tr>
+										<th>Material</th>
+										<th>Quantidade</th>
+										<th>Origem</th>
+									</tr>					
+								</thead>
+								<tfoot>
+									<tr>
+										<td>Total</td>
+										<td class="valor" colspan="2">100%</td>
+									</tr>								
+								</tfoot>
+								<tbody>
+									<tr>
+										<td>Algodão</td>
+										<td class="valor">50%</td>
+										<td>Brasil</td>
+									</tr>
+									<tr class="alt">
+										<td>Poliester</td>
+										<td class="valor">25%</td>
+										<td>China</td>
+									</tr>
+									<tr>
+										<td>Lycra</td>
+										<td class="valor">25%</td>
+										<td>USA</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 						<div id="tabs-2">segunda aba.</div>
 						<div id="tabs-3">terceita aba.</div>
-					</div>
+					</div><!-- fim tabs -->
+
+					<div style="clear: both;"></div>
 					
+					<br/>
+
 				</div><!-- fim produto_descricao -->
+
+					<h4>COMBINE ESSE PRODUTO COM:</h4>
+					<div id="slideshow">
+						<div id="slidesContainer">
+							<div class="slide">
+								<img src="images/combina01.jpg" />
+								<img src="images/combina02.jpg" />
+								<img src="images/combina03.jpg" />
+								<img src="images/combina04.jpg" />
+								<img src="images/combina05.jpg" />
+								<img src="images/combina06.jpg" />
+							</div>
+							<div class="slide">
+								<img src="images/combina05.jpg" />
+								<img src="images/combina06.jpg" />
+								<img src="images/combina07.jpg" />
+								<img src="images/combina01.jpg" />
+								<img src="images/combina02.jpg" />
+								<img src="images/combina03.jpg" />
+							</div>
+							<div class="slide">
+								<img src="images/combina06.jpg" />
+								<img src="images/combina07.jpg" />
+								<img src="images/combina01.jpg" />
+								<img src="images/combina02.jpg" />
+								<img src="images/combina02.jpg" />
+								<img src="images/combina04.jpg" />
+							</div>
+						</div>
+					</div>
+
+
 				<div style="clear: both;"></div>
 			</div><!--fim container-->
 
