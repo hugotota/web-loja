@@ -423,3 +423,51 @@ ul[id |= "sub"] li a:hover, ul[id |= "sub"] li a:active {
 	height: 100px;
 	margin: 0 15px;
 }
+
+#contato {
+	margin: 50px 0px 20px 0px;
+}
+
+#contato h1 {
+	color: #000033;
+}
+
+#contato h5 {
+	color: #336699;
+	width: 500px;
+}
+
+#contato label {
+	font-size: 12pt;
+}
+
+#contato input[type=text], #contato textarea {
+	padding: 5px;
+	border: solid 1px #000066;
+	outline: 0;
+	width: 350px;
+	background: #ffffff url("../images/bg_form.png") 0px 0px repeat-x;
+	background: -moz-linear-gradient(top, #ffffff, #eeeeee 1px, #ffffff 25px);
+	-moz-box-shadow: rgba(0,0,0,0.5) 0px 0px 8px;
+	-moz-border-radius: 5px;
+}
+
+#contato input:focus, #contato textarea:focus {
+	border-color: #c9c9c9;
+	-webkit-box-shadow: rgba(0,0,0,0.15) 0px 0px 8px;
+}
+
+#contato input[type=submit] {
+	width: auto;
+	padding: 9px 15px;
+	background:  #617798;
+	border: 0;
+	font-size: 14px;
+	color: #ffffff;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+}
+
+#contato p {
+	margin-top: 5px;
+}
